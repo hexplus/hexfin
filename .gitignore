@@ -1,0 +1,11 @@
+build/
+run/
+*.o
+*.elf
+*.prx
+EBOOT.PBP
+fixtures/*.mp4
+build/host/
+ppsspp-portable/
+logs/
+docs/
