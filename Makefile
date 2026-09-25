@@ -38,6 +38,8 @@ LIBS =
 
 EXTRA_TARGETS   = $(PSP_EBOOT)
 PSP_EBOOT_TITLE = Hexfin
+# The XMB wants exactly 144x80; assets/ICON0.png is the full-size source.
+PSP_EBOOT_ICON  = assets/ICON0_144x80.png
 
 # PSPLINK loads relocatable modules only and refuses a static ELF with
 # 0x80020148, so this must not silently default to a plain make.
